@@ -75,4 +75,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MiuiCameraOverlay
 
+# Overlays
+PRODUCT_PACKAGES += \
+    MiuiCameraOverlayIcon
+
 $(call inherit-product, $(CAMERA_VENDOR_PATH)/camera-vendor.mk)
